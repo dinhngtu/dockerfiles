@@ -5,9 +5,10 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
         ca-certificates \
         latexmk \
         make \
-        texlive-xetex \
+        biber \
+        cm-super \
+        lmodern \
+        texlive-plain-generic \
         texlive-science \
-        texlive-fonts-recommended \
-        texlive-fonts-extra \
-        texlive-generic-recommended \
+        texlive-xetex \
 && rm -rf /var/lib/apt/lists/*
