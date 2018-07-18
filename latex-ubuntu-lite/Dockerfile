@@ -8,5 +8,6 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
         texlive-xetex \
         texlive-science \
         texlive-fonts-recommended \
+        texlive-fonts-extra \
         texlive-generic-recommended \
 && rm -rf /var/lib/apt/lists/*
